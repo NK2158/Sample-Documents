@@ -1,0 +1,41 @@
+# SmartHome Energy Report
+
+This project is a sample technical documentation site designed to showcase best practices in **data presentation**, **visual storytelling**, and **infographic integration** using **MadCap Flare** and **GitHub Pages**.
+
+## 📊 Project Overview
+
+The **SmartHome Energy Report** visualizes energy usage patterns gathered from a smart home hub and communicates the data in a clear, engaging way. This includes:
+
+- Daily and monthly usage reports
+- Graphs and tables to support storytelling
+- Energy-saving recommendations
+- Infographics for enhanced visual appeal
+
+## ✨ Skills Demonstrated
+
+- ✅ Data storytelling and infographic use
+- ✅ Annotated visuals and iconography
+- ✅ Use of MadCap Flare (HTML5 output, snippets, variables, cross-references)
+- ✅ Organized technical content and topic reuse
+- ✅ GitHub Pages deployment of Flare output
+
+## 📸 Screenshots and Visuals
+
+- Line charts and bar graphs showing usage trends
+- Pie charts for device energy consumption
+- Tips displayed using infographic cards and icons
+
+## 🛠 Tools Used
+
+- [MadCap Flare](https://www.madcapsoftware.com/products/flare/)
+- [GitHub Pages](https://pages.github.com/)
+- [Canva](https://canva.com) (for infographic creation)
+- HTML & CSS (for minor styling adjustments)
+
+## 🌐 Live Demo
+
+🔗 [View the documentation site here](https://yourusername.github.io/smarthome-energy-report)  
+> *(Replace with your actual GitHub Pages link)*
+
+## 📁 Project Structure
+
