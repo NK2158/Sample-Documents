@@ -10,7 +10,7 @@ This guide includes authentication steps, endpoint descriptions, sample requests
 
 The **Weather API** allows developers to retrieve current weather conditions and 5-day forecasts for specified locations.
 
-Base URL:
+**Base URL:**
 https://api.weatherapp.io/v1
 
 ---
@@ -20,27 +20,25 @@ https://api.weatherapp.io/v1
 All endpoints require an API key.
 
 **To authenticate**, pass your API key in the `Authorization` header:
-
-```http
 GET /weather?city=lagos
 Authorization: Bearer YOUR_API_KEY
-Note: You can register for an API key at: https://weatherapp.io/signup
- Endpoints
-✅ GET /weather
+
+> **Note**: You can register for an API key at: [https://weatherapp.io/signup](https://weatherapp.io/signup)
+
+---
+
+## 🔍 Endpoints
+
+### ✅ GET /weather
+
 Returns current weather conditions for a city.
 
-Request:
-
-http
-Copy
-Edit
-GET /weather?city=lagos
+**Request:**GET /weather?city=lagos
 Authorization: Bearer YOUR_API_KEY
-Response:
 
-json
-Copy
-Edit
+**Response:**
+
+```json
 {
   "city": "Lagos",
   "temperature": 30,
@@ -48,14 +46,6 @@ Edit
   "description": "Partly cloudy",
   "wind_speed": 10
 }
-⛅ GET /forecast
-Returns a 5-day forecast for a city.
-
-Request:
-
-http
-Copy
-Edit
 GET /forecast?city=lagos
 Authorization: Bearer YOUR_API_KEY
 Response:
@@ -100,3 +90,36 @@ Copy
 Edit
 https://api.weatherapp.io/v1
 Future versions will follow semantic versioning (v1, v2, etc.).
+
+📦 Sample Project
+If you're looking to use this API, check out our sample project to see integration in action.
+
+📄 License
+This fictional API is created for technical writing demonstration purposes and is licensed under the MIT License.
+
+🧑‍💻 Author
+Created by Nkeiruka Nwobodo
+Portfolio | LinkedIn | GitHub
+
+yaml
+Copy
+Edit
+
+---
+
+Let me know if you want:
+- A **diagram or infographic** to include in the repo
+- Help setting this up in GitHub visually
+- A version in `HTML` or PDF for your portfolio site
+
+
+
+
+
+
+
+
+
+
+
+
